@@ -1,14 +1,15 @@
 <?php
 
-if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
 
 
 $icon_text = intval($this->binu->font_size * 1.3);
 
 // hack, HD displays result in icons that are
 // too large to be drawn
-if ( $icon_text > 60 ) {
-  $icon_text = 60;
+if ($icon_text > 60) {
+    $icon_text = 60;
 }
 
 echo <<<EOT
@@ -45,5 +46,6 @@ echo <<<EOT
   <style name="header_bg">
     <color value="{$this->config->item('top_bar_color')}"/>
   </style>
+    
 </styles>
 EOT;

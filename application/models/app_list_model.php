@@ -25,7 +25,7 @@ class App_list_model extends CI_Model {
             'New Form' => 'http://swifta.co/binutraining/framework/index.php/nav/new_form/',
             'Image Page' => 'http://swifta.co/binutraining/framework/index.php/nav/new_image/',
             'Cookie Details' => 'http://swifta.co/binutraining/framework/index.php/nav/displaycookies/',
-            'MATS Updated' => 'http://swifta.co/binutraining/matsapp/'
+            'M.A.T.S Updated' => 'http://swifta.co/binutraining/matsapp/index.php/nav/logout'
         );
 
         return($listing);
